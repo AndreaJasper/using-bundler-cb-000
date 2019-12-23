@@ -1,8 +1,9 @@
 source "https://rubygems.org"
-gem "Sinatra"
+
+gem "sinatra", '1.4.4'
 gem "hashie"
-gem "Octokit"
-gem "AwesomePrint"
+gem "Octokit", '~> 2.0'
+gem "AwesomePrint", git => 'https//github.com/awesome-print/awesome_print'
 
 group :development do
 gem "pry"
