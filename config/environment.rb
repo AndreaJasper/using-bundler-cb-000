@@ -1,4 +1,4 @@
 require 'bundler/setup'
 Bundler.require(:default, :development)
 
-require 'Octokit'
+require 'Sinatra', '1.4.4'
